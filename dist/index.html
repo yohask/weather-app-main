@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/weather-icons.css">
+</head>
+
+<body>
+
+  <div class="switch-container">
+    <input type="checkbox" class="temp-switch">
+    <p class="fahrenheit">°F</p>
+    <p class="celsius active">°C</p>
+  </div>
+
+  <div class="top-container">
+    <div class="search-container">
+      <input type="text" class="search-bar" name="search-bar" placeholder="Search a new city">
+      <button data-key="13" class="search-button">Go!</button>
+    </div>
+    <div class="place-information">
+      <h1 class="place-name"></h1>
+      <img src="" class="country-flag">
+    </div>
+    <h3 class="weather-description"></h3>
+    <p class="place-error">Cannot find that place</p>
+  </div>
+
+  <div class="main-container">
+    <div class="tiles-container">
+      <div class="tiles">
+        <h2 class="tile-day"></h2>
+      </div>
+      <div class="tiles">
+        <h2 class="tile-day"></h2>
+      </div>
+      <div class="tiles">
+        <h2 class="tile-day"></h2>
+      </div>
+      <div class="tiles">
+        <h2 class="tile-day"></h2>
+      </div>
+      <div class="tiles">
+        <h2 class="tile-day"></h2>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+<script src="main.js"></script>
+
+</html>
